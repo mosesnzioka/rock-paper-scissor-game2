@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rock-paper-scissor</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="game-container">
+      <header class="start-point">
+     <a class="connectto" href="github.com">mosesnzioka</a>
+    <p class="show">Computer: <span id="computerPoints">0</span></p>
+    <p class="show">Player: <span id="playersPoints">0</span></p>
+    
+    
+    </header>
+      <div class="computer-display">
+        <p class="display-title">computer</p>
+        
+      <div class="computer-choice"  id="currentComputerPlayer">
+      </div>
+
+      </div>
+      
+      <div class="winners-display">
+        <p id="results"></p>
+      </div>
+
+      <div class="player-display">
+        <p class="display-title">player</p>
+        
+        <div class="player-choice-display" id="currentPlayer">
+          
+        </div>
+      </div>
+
+      <div class="player-choice">
+        <div class="display-choice">
+
+            <button id="rock" style='font-size: 60px;'  >👊</button>
+            <button id="paper" style='font-size: 60px;'>✋</button>
+            <button id="scissors" style='font-size: 60px;'>✌</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>

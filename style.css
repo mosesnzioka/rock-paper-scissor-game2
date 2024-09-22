@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+.logo{
+  margin-left: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.connectto{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.start-point{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4px;
+
+  
+}
+
+.show{
+  font-size: 15px;
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+
+}
+.game-container{
+  width: 50%;
+  height: 100vh;
+  background-color: #9EC91E;
+  margin: auto;
+}
+
+h3{
+  font-family: "Silkscreen", sans-serif;
+}
+
+.title1{
+  font-size: 10px;
+  font-weight: 800;
+  background-color: white;
+}
+
+.computer-display-title{
+  margin-bottom: 2px;
+ 
+}
+
+.computer-display{
+  width: max-content;
+  height: max-content;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-weight: 900;
+}
+
+#playersPoints{
+  margin-right: 10px;
+}
+
+.computer-choice{
+  border: 1px dashed;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  font-size: 9px;
+}
+
+
+.player-display{
+  width: max-content;
+  height: max-content;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.display-title{
+  font-family: "Silkscreen", sans-serif;
+  font-size: 20px;
+  margin-bottom: 0;
+  font-weight: 800;
+
+}
+
+.player-title{
+  margin-bottom: 2px;
+  
+}
+
+.player-choice-display{
+  border: 1px dashed;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.winners-display{
+  background-color: #F2C244;
+  width: 100%;
+  padding: 1px;
+
+}
+#results{
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Silkscreen", sans-serif;
+}
+
+#currentComputerPlayer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.display-choice{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+ 
+}
+
+.choice-card-rock{
+  background-color: white;
+  width: 100px;
+  height: 120px;
+  border-radius: 5px;
+
+}
+
+.choice-card-paper{
+  background-color: white;
+  width: 100px;
+  height: 120px;
+  border-radius: 5px;
+
+}
+
+.choice-card-scissor{
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+
+}
+
+.choice{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 40px; */
+
+}
+.choice-title{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
