@@ -20,6 +20,18 @@
   
 }
 
+@media screen and (max-width:43.75em) {
+
+  .start-point{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+  }
+  
+}
+
 .show{
   font-size: 15px;
   font-family: "Silkscreen", sans-serif;
@@ -28,9 +40,25 @@
 }
 .game-container{
   width: 50%;
-  height: 100vh;
+  height: 105vh;
   background-color: #9EC91E;
   margin: auto;
+}
+
+@media screen and (max-width:47.5em) {
+  .game-container{
+    height: 130vh;
+
+  }
+  
+}
+
+@media screen and (max-width:28.13em) {
+  .game-container{
+    height: 160vh;
+
+  }
+  
 }
 
 h3{
@@ -46,6 +74,14 @@ h3{
 .computer-display-title{
   margin-bottom: 2px;
  
+}
+
+@media screen and (max-width:43.75em) {
+
+  .computer-display-title{
+    font-size: 20px;
+  }
+  
 }
 
 .computer-display{
@@ -129,6 +165,15 @@ h3{
   justify-content: center;
   gap: 8px;
  
+}
+
+@media screen and (max-width:40em) {
+  .display-choice{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
 }
 
 .choice-card-rock{
